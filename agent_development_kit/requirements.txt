@@ -1,0 +1,36 @@
+# Google Agent Development Kit Multi-Agent System
+# Core Dependencies
+google-cloud-firestore>=2.13.1
+google-auth>=2.23.4
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# Web Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Database and Firebase
+firebase-admin>=6.3.0
+
+# AI and NLP - Using Gemini API
+google-generativeai>=0.3.1
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Utilities
+python-dotenv==1.0.0
+jsonschema==4.19.2
+requests==2.31.0
+websockets==12.0
+asyncio-mqtt==0.13.0
+
+# Logging and Monitoring
+structlog==23.2.0
+prometheus-client==0.19.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2

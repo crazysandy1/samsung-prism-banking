@@ -1,0 +1,85 @@
+// THIS IS AN EXAMPLE FILE - COPY TO firebase_options.dart AND UPDATE WITH YOUR CREDENTIALS
+// firebase_options.dart.example
+
+import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, TargetPlatform;
+
+/// Default [FirebaseOptions] for use with your Firebase apps.
+///
+/// Example configuration file for Firebase options.
+/// 1. Copy this file to firebase_options.dart
+/// 2. Update all API keys and configuration with your actual Firebase project details
+/// 3. Never commit firebase_options.dart to version control
+class DefaultFirebaseOptions {
+  static FirebaseOptions get currentPlatform {
+    if (kIsWeb) {
+      return web;
+    }
+    switch (defaultTargetPlatform) {
+      case TargetPlatform.android:
+        return android;
+      case TargetPlatform.iOS:
+        return ios;
+      case TargetPlatform.macOS:
+        return macos;
+      case TargetPlatform.windows:
+        return windows;
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      default:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
+    }
+  }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: '1:YOUR_PROJECT_NUMBER:web:YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'your-project-id',
+    authDomain: 'your-project-id.firebaseapp.com',
+    storageBucket: 'your-project-id.appspot.com',
+    measurementId: 'G-YOUR_MEASUREMENT_ID',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: '1:YOUR_PROJECT_NUMBER:android:YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'your-project-id',
+    storageBucket: 'your-project-id.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: '1:YOUR_PROJECT_NUMBER:ios:YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'your-project-id',
+    storageBucket: 'your-project-id.appspot.com',
+    iosBundleId: 'com.yourcompany.samsungprism',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: '1:YOUR_PROJECT_NUMBER:ios:YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'your-project-id',
+    storageBucket: 'your-project-id.appspot.com',
+    iosBundleId: 'com.yourcompany.samsungprism',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'YOUR_WINDOWS_API_KEY',
+    appId: '1:YOUR_PROJECT_NUMBER:web:YOUR_WINDOWS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'your-project-id',
+    authDomain: 'your-project-id.firebaseapp.com',
+    storageBucket: 'your-project-id.appspot.com',
+    measurementId: 'G-YOUR_MEASUREMENT_ID',
+  );
+}

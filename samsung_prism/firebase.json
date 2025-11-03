@@ -1,0 +1,29 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "samsung-prism-banking-app",
+          "appId": "1:75576999025:android:e7f8a301394e8fe9e92fd0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "samsung-prism-banking-app",
+          "configurations": {
+            "android": "1:75576999025:android:e7f8a301394e8fe9e92fd0",
+            "ios": "1:75576999025:ios:87e903976a37a3c4e92fd0",
+            "macos": "1:75576999025:ios:87e903976a37a3c4e92fd0",
+            "web": "1:75576999025:web:8c38ed5aa6bd8682e92fd0",
+            "windows": "1:75576999025:web:2f4191890c08ecc0e92fd0"
+          }
+        }
+      }
+    }
+  }
+}
