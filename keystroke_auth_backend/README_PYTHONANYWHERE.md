@@ -86,7 +86,7 @@ const String keystrokeApiUrl = 'https://yourusername.pythonanywhere.com';
 - Required by PythonAnywhere
 - Imports your Flask application
 
-### **2. `.env.pythonanywhere`** - Optimized Configuration
+### **2. `.env.pythonanywhere.example`** - Optimized Configuration
 - Memory-optimized settings
 - CPU-friendly ML parameters
 - PythonAnywhere-specific paths
@@ -234,7 +234,7 @@ Your keystroke authentication system is **fully compatible** with PythonAnywhere
 
 *Files created for PythonAnywhere deployment:*
 - `flask_app.py` - WSGI entry point
-- `.env.pythonanywhere` - Optimized configuration
+- `.env.pythonanywhere.example` - Optimized configuration
 - `requirements-pythonanywhere.txt` - Compatible dependencies
 - `setup_pythonanywhere.sh` - Automated setup script
 - `test_pythonanywhere.py` - Deployment testing

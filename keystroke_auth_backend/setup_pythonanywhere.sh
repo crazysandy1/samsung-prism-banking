@@ -82,8 +82,8 @@ setup_environment() {
     print_info "Setting up environment configuration..."
 
     # Copy PythonAnywhere environment file
-    if [ -f ".env.pythonanywhere" ]; then
-        cp .env.pythonanywhere .env
+    if [ -f ".env.pythonanywhere.example" ]; then
+        cp .env.pythonanywhere.example .env
         print_success "Environment file configured"
     else
         print_warning "PythonAnywhere environment file not found"

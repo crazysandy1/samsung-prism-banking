@@ -8,9 +8,9 @@ BUILD IN COLLABRATION WITH DARSHAN CH github:-@DarshanCHMSR & Team Members as pa
 
 | 📋 **Resource**             | 🔗 **Link**                                                                                         | 📝 **Description**                                   |
 | --------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| 🎯 **Project Presentation** | [View PPT]https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link   | Complete system overview, architecture, and features |
-| 🎬 **Live Demo Video**      | [Watch Demo]https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link |
-| 📱 **APK Download**         | [Download APK]https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link | Ready-to-install Android application                 |
+| 🎯 **Project Presentation** | [View PPT](https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link)   | Complete system overview, architecture, and features |
+| 🎬 **Live Demo Video**      | [Watch Demo](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link) |
+| 📱 **APK Download**         | [Download APK](https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link) | Ready-to-install Android application                 |
 
 ## 🌟 System Overview
 
@@ -19,9 +19,9 @@ Samsung Prism is a sophisticated **multi-layered banking platform** that combine
 ### 🎯 Key Innovations
 
 - **🤖 Multi-Agent AI System** - Specialized AI agents for account, loan, card, and support queries
-- **�️ Advanced Voice Assistant** - Speech-to-text and text-to-speech with 12+ language support
+- **️ Advanced Voice Assistant** - Speech-to-text and text-to-speech with 12+ language support
 - **🌍 Multilingual Platform** - Complete localization for 12 Indian languages + English
-- **�🔐 Keystroke Dynamics Authentication** - Behavioral biometric security using machine learning
+- **🔐 Keystroke Dynamics Authentication** - Behavioral biometric security using machine learning
 - **📍 Location-Based Security** - Trusted location management and transaction monitoring
 - **🎨 Modern Flutter Architecture** - Cross-platform mobile app with MVVM pattern
 - **⚡ Real-time Processing** - Live transaction monitoring and instant AI responses
@@ -30,7 +30,7 @@ Samsung Prism is a sophisticated **multi-layered banking platform** that combine
 
 ---
 
-## � Project Demonstration
+##  Project Demonstration
 
 ### 📽️ **Live Demo & Presentation**
 
@@ -38,13 +38,13 @@ Get a comprehensive overview of the Samsung Prism Banking System with our detail
 
 #### 🎯 **Project Presentation**
 
-> **PowerPoint Presentation**: [View Detailed Project Overview](YOUR_PPT_LINK_HERE)
+> **PowerPoint Presentation**: [View Detailed Project Overview](https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link)
 >
 > 📊 **Includes**: System architecture, feature walkthrough, technical specifications, AI capabilities, security features, and implementation details
 
 #### 🚀 **Live Demo Video**
 
-> **Demo Video**: [Watch Full System Demo](YOUR_DEMO_VIDEO_LINK_HERE)
+> **Demo Video**: [Watch Full System Demo](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link)
 >
 > 🎬 **Features**: Complete app walkthrough, AI assistant demo, multilingual interface, voice commands, secure transactions, and real-time features
 
@@ -57,7 +57,7 @@ Get a comprehensive overview of the Samsung Prism Banking System with our detail
 
 ---
 
-## �🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 ```mermaid
 graph TB
@@ -104,7 +104,7 @@ graph TB
 ## 📦 Project Structure
 
 ```
-Samsung_prism/
+samsung-prism-banking/
 ├── 📱 samsung_prism/              # Flutter Mobile Application
 │   ├── lib/
 │   │   ├── main.dart              # App entry point & configuration
@@ -202,7 +202,7 @@ Samsung_prism/
 
 ## 🎯 Core Features
 
-> 💡 **See these features in action**: [Watch Live Demo Video](YOUR_DEMO_VIDEO_LINK_HERE) | [View Technical Presentation](YOUR_PPT_LINK_HERE)
+> 💡 **See these features in action**: [Watch Live Demo Video](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link) | [View Technical Presentation](https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link)
 
 ### 🔐 Advanced Security Features
 
@@ -465,13 +465,13 @@ code --version
 
 ### 🔧 Installation & Setup
 
-> 🚀 **Quick Start**: Want to see the app in action first? [**Download APK**](YOUR_APK_LINK_HERE) or [**Watch Demo Video**](YOUR_DEMO_VIDEO_LINK_HERE) before setting up the development environment.
+> 🚀 **Quick Start**: Want to see the app in action first? [**Download APK**](https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link) or [**Watch Demo Video**](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link) before setting up the development environment.
 
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YourUsername/Samsung_prism.git
-cd Samsung_prism
+git clone https://github.com/crazysandy1/samsung-prism-banking.git
+cd samsung-prism-banking
 ```
 
 #### 2. Flutter Application Setup
@@ -1001,7 +1001,7 @@ The Samsung Prism Banking App is available as a production-ready APK file for im
 
 #### 📱 **Installation Instructions**
 
-1. **Download APK**: [**Download Samsung Prism APK**]https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link (75.8MB)
+1. **Download APK**: [**Download Samsung Prism APK**](https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link) (75.8MB)
 2. **Enable Unknown Sources**: Settings → Security → Unknown Sources
 3. **Install APK**: Tap the downloaded file and follow installation prompts
 4. **Launch App**: Find "Samsung Prism" in your app drawer
@@ -1036,9 +1036,9 @@ The Samsung Prism Banking App is available as a production-ready APK file for im
 
 #### 🔄 **Alternative Download Options**
 
-- **📱 Direct APK**: [Download from Repository]https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link
-- **🎬 Demo Video**: [Watch Features]https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link
-- **📊 Presentation**: [View Technical Details]https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link
+- **📱 Direct APK**: [Download from Repository](https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link)
+- **🎬 Demo Video**: [Watch Features](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link)
+- **📊 Presentation**: [View Technical Details](https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link)
 
 > **💡 Pro Tip**: For the best experience, use the APK on a physical Android device rather than an emulator to fully experience the keystroke dynamics and location-based security features.
 
@@ -1101,8 +1101,8 @@ def log_user_action(user_id: str, action: str, metadata: dict):
 
 ```bash
 # Setup development environment
-git clone https://github.com/YourUsername/Samsung_prism.git
-cd Samsung_prism
+git clone https://github.com/crazysandy1/samsung-prism-banking.git
+cd samsung-prism-banking
 
 # Install pre-commit hooks
 pip install pre-commit
@@ -1170,8 +1170,8 @@ copies or substantial portions of the Software.
 ### Technical Support
 
 - **Documentation**: [Architecture Overview](ARCHITECTURE_OVERVIEW.md)
-- **Issues**: [GitHub Issues](https://github.com/YourUsername/Samsung_prism/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YourUsername/Samsung_prism/discussions)
+- **Issues**: [GitHub Issues](https://github.com/crazysandy1/samsung-prism-banking/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/crazysandy1/samsung-prism-banking/discussions)
 
 ### Business Inquiries
 
@@ -1336,10 +1336,9 @@ graph TB
 
 | 📋 **Resource Type**           | 🔗 **Access Link**                                   | 📝 **Content Description**                                                                                | ⏱️ **Duration** |
 | ------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------- |
-| 🎯 **PowerPoint Presentation** | [**View Full Presentation**](YOUR_PPT_LINK_HERE)     | System architecture, technical specifications, AI capabilities, security features, implementation roadmap | 20-25 slides    |
-| 🎬 **Live Demo Video**         | [**Watch Complete Demo**](YOUR_DEMO_VIDEO_LINK_HERE) | App walkthrough, AI assistant demo, voice commands, multilingual interface, security features             | 10-15 mins      |
-| 📱 **Mobile APK**              | [**Download & Install**](YOUR_APK_LINK_HERE)         | Ready-to-use Android application with all features                                                        | Install & Try   |
-| 🌐 **Web Demo**                | [**Try Online**](YOUR_WEB_DEMO_LINK_HERE)            | Browser-based app experience (PWA)                                                                        | Interactive     |
+| 🎯 **PowerPoint Presentation** | [**View Full Presentation**](https://drive.google.com/drive/folders/1m30x0BiPaqbwMMpShEZiptMdCdLyRC08?usp=drive_link)     | System architecture, technical specifications, AI capabilities, security features, implementation roadmap | 20-25 slides    |
+| 🎬 **Live Demo Video**         | [**Watch Complete Demo**](https://drive.google.com/drive/folders/1MeBVhFFFMzZnZDY-X2JgWV7BSYOcYDeG?usp=drive_link) | App walkthrough, AI assistant demo, voice commands, multilingual interface, security features             | 10-15 mins      |
+| 📱 **Mobile APK**              | [**Download & Install**](https://drive.google.com/file/d/1q8qXaEQ3PcWdbKt2DndiMrUmMESJjpsK/view?usp=drive_link)         | Ready-to-use Android application with all features                                                        | Install & Try   |
 
 ### 🎥 **Demo Video Highlights**
 
@@ -1394,9 +1393,9 @@ The technical presentation covers:
 
 ### 🌟 Star this project if you found it helpful!
 
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/Samsung_prism?style=social)](https://github.com/YourUsername/Samsung_prism/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YourUsername/Samsung_prism?style=social)](https://github.com/YourUsername/Samsung_prism/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/YourUsername/Samsung_prism)](https://github.com/YourUsername/Samsung_prism/issues)
+[![GitHub stars](https://img.shields.io/github/stars/crazysandy1/samsung-prism-banking?style=social)](https://github.com/crazysandy1/samsung-prism-banking/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/crazysandy1/samsung-prism-banking?style=social)](https://github.com/crazysandy1/samsung-prism-banking/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/crazysandy1/samsung-prism-banking)](https://github.com/crazysandy1/samsung-prism-banking/issues)
 
 **Built with ❤️ by the Samsung Prism Team**
 
